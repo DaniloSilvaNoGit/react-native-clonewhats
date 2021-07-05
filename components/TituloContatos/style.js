@@ -17,8 +17,8 @@ export const style = StyleSheet.create({
         marginTop: 40,
     },
     foto: {
-        width: 40,
-        height: 40,
+        width: 38,
+        height: 38,
         borderRadius: 30,
         marginTop: 30,
         marginLeft: 10
@@ -40,20 +40,21 @@ export const style = StyleSheet.create({
     canto: {
         flexDirection: 'row',
         marginTop: 40,
-        marginLeft: 70
+        marginLeft: 60
     },
     camera: {
         width: 23,
         height: 23,
+        marginRight: 2
     },
     telefone: {
         width:23,
         height:23,
-        marginLeft: 30
+        marginLeft: 32
     },
     menu: {
         width: 20,
         height: 20,
-        marginLeft:20
+        marginLeft:28
     }
 })

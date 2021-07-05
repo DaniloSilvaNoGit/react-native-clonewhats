@@ -17,11 +17,11 @@ export const style = StyleSheet.create({
     },
     caixaMensagens: {
         position: 'absolute',
-        height: 40,
+        height: 45,
         margin: 12,
         backgroundColor: '#ffffff',
         color: 'black',
-        borderRadius: 20,
+        borderRadius: 30,
 
         shadowColor: "#000",
         shadowOffset: {
@@ -33,8 +33,45 @@ export const style = StyleSheet.create({
         
         elevation: 2,
 
-        width: 280,
-        paddingLeft: 10,
-        marginTop: 570
+        width: 300,
+        paddingLeft: 40,
+        marginTop: 565,
+        fontSize: 18,
+        marginLeft: 5
+    },
+    emoji: {
+        width: 22,
+        height: 22,
+
+        position: 'absolute',
+        marginTop: 576,
+        marginLeft: 14,
+        elevation:10
+    },
+    clip: {
+        width: 22,
+        height: 22,
+
+        position: 'absolute',
+        marginTop: 576,
+        marginLeft: 226,
+        elevation: 10
+    },
+    camera: {
+        width: 20,
+        height: 20,
+
+        position: 'absolute',
+        marginTop: 578,
+        elevation: 10,
+        marginLeft: 270
+    },
+    micro: {
+        width: 50,
+        height: 50,
+
+        position: 'absolute',
+        marginTop: 566,
+        marginLeft: 307
     }
 })

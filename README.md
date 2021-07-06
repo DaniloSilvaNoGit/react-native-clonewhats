@@ -8,5 +8,7 @@
   <li>Aplicação feita no olho</li>
 </ol>
 <h2>Prints do clone</h2>
-<img src="./assets/images/Imagem1.png">
-<img src="./assets/images/Imagem2.png">
+<div display="flex">
+  <img src="./assets/images/Imagem1.png" width="300" >
+  <img src="./assets/images/Imagem2.png" width="300" >
+</div>
